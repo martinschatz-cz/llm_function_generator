@@ -1,0 +1,17 @@
+name: ollama_function_gen
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - jupyterlab
+  - ipykernel
+  - requests
+  - pytest
+  - black  # For optional code formatting
+  - flake8 # For optional linting
+  - ipython # Interactive Python for testing code snippets
+  - pip
+  - pip:
+      - openai  # In case you also need OpenAI's API
+
